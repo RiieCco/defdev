@@ -1,10 +1,22 @@
 //Demo3 dependency-check
 pipeline {
     agent any
+    environment {     
+        _REPOSITORY_TO_TEST='https://github.com/riiecco/training-repository'
+        _REPOSITORY_NAME='training-repository'
+    }
     stages {
-        stage('Example') {
+        stage('clone repository') {
             steps {
-                echo 'put container script here!'
+                sh 'git clone $_REPOSITORY_TO_TEST'
+            }
+        stage('run tooling') {
+            steps {
+                sh 'echo "put container script here!"'
+            }
+        stage('clean repository') {
+            steps {
+                sh 'rm -rf $_REPOSITORY_NAME'
             }
         }
     }
