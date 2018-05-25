@@ -9,7 +9,7 @@ pipeline {
                        sh 'echo "builds are run!"'
                     },
                     "Start dependency-check" : {
-                       sh 'echo "Multiple parallel runs in the pipeline!"'
+                       sh 'echo "Multiple parallel steps run in the pipeline now!"'
                     }
                 )
             }
