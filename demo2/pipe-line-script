@@ -1,0 +1,11 @@
+//Demo3 dependency-check
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            steps {
+                echo 'put container script here!'
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+//Demo3
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            steps {
+                echo 'Put container script here!'
+            }
+        }
+    }
+}

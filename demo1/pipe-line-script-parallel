@@ -1,0 +1,18 @@
+//Demo1 parallel
+pipeline {
+    agent any
+    stages {        
+        stage("Security build") {
+            steps {
+                parallel (
+                   "Start parallel builds" : {
+                       sh 'echo "builds are run!"'
+                    },
+                    "Start dependency-check" : {
+                       sh 'echo "Multiple parallel runs in the pipeline!"'
+                    }
+                )
+            }
+        }
+    }
+}
