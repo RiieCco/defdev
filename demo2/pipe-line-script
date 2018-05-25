@@ -14,10 +14,11 @@ pipeline {
             steps {
                 sh 'echo "put container script here!"'
             }
-        stage('clean repository') {
-            steps {
-                sh 'rm -rf $_REPOSITORY_NAME'
-            }
+        }
+    }
+    post {
+        always {
+            sh 'rm -rf $_REPOSITORY_NAME'
         }
     }
 }
