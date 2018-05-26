@@ -1,6 +1,8 @@
 pipeline {
     agent any
     environment { 
+        _GIT_REPOSITORY = 'https://github.com/riiecco/training-repository'
+        
         _DOJO_URL            = ''
         _DOJO_API_KEY        = ''
         _DOJO_ENGAGEMENT_ID  = ''
