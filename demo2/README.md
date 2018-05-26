@@ -36,7 +36,9 @@ Run the dependency-check docker container from the defdev docker registry ("defd
     PROJECT_FOLDER="${PROJECT_FOLDER:-/project}"
     OUTPUT_FOLDER="${OUTPUT_FOLDER:-/project}"
     OUTPUT_FORMAT="${OUTPUT_FORMAT:-XML}"
-
+    
+    #ENV variable used in the docker build
+    #Look how to deploy docker containers with ENV variables
     [ -z "${SOURCE_REPO}" ] && exit_env_error SOURCE_REPO
 
 
