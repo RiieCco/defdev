@@ -1,6 +1,6 @@
 # Demo1: Docker intro 1.0
 
-Run the hello-world docker container from the defdev docker registry. Below shows the Dockerfile code
+Run the hello-world docker container from the defdev docker registry. Below shows the Dockerfile code:
 
     FROM alpine
 
@@ -17,7 +17,7 @@ In this case the 'entrypoint.sh' contains nothing more than:
 
     echo "Hello world from Docker!"
 
-Run this container from the defdev registry ("defdev/hello-world") in Jenkins by incorperating it either the "pipe-line-script" file and put it in the configuration for your job.
+Run this container from the defdev registry ("defdev/hello-world") in Jenkins by incorperating it either the "pipe-line-script" file and put it in the configuration for your job. These exercises are meant to also train your Google foo. So do not hessitate to go look it up online!
 
 # Demo1: Docker intro 1.0
 
