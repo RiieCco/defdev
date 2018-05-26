@@ -1,3 +1,4 @@
+![GitHub Logo](https://defdev.eu/ddf/gfx/logo.defdev.1608z.whtonblk.svg)
 # Demo2: Dependency check
 
 Run the dependency-check docker container from the defdev docker registry ("defdev/dependency-check-lite"). Below is shown the code from the entrypoint.sh and Dockerfile used to build this container. Look into the code to figure out how this docker container should be deployed in the pipe-line-script file!
