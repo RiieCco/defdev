@@ -1,10 +1,8 @@
 # Demo3: Mobile security framework!
 
 Run the Mobile security framework CLI container from the defdev docker registry ("defdev/mobsf-client"). 
-In the pipe-line-script file there is already a great part of the Jenkinsfile pre-defined. It also
-incorperates the API key to communicate with the mobsf-engine instance. 
-
-##### Note: The SOURCE_REPO_APK_RAW=https://raw.githubusercontent.com/RiieCco/training-repository/master/test.apk
+In the pipe-line-script file there is already a great part of the Jenkinsfile and how the container should run pre-defined.
+However, in this demo we have to find out how to effectively run the Docker container.
 
 ### Dockerfile
 
