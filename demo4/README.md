@@ -1,4 +1,4 @@
-# Demo3: Mobile security framework!
+# Demo4: Dependency-check and Defect-dojo
 
 Run the dependency-check container from the defdev docker registry ("defdev/dependency-check"). 
 In the pipe-line-script file there is already a great part of the Jenkinsfile and how the container should run pre-defined.
