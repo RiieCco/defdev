@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            steps {
+                sh 'sudo docker run -e ENV_VARIABLE=Riccardo defdev/hello-world-env'
+            }
+        }
+    }
+}
