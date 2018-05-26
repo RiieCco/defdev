@@ -2,14 +2,14 @@
 pipeline {
     agent any
     stages {        
-        stage("Security build") {
+        stage("parallel build") {
             steps {
                 parallel (
-                   "Start parallel builds" : {
-                       sh 'echo "builds are run!"'
+                   "Start step1" : {
+                       sh 'RUN THE HELLO WORLD CONTAINER PARALLEL'
                     },
-                    "Start dependency-check" : {
-                       sh 'echo "Multiple parallel steps run in the pipeline now!"'
+                    "Start step2" : {
+                       sh 'RUN THE HELLO WORLD CONTAINER PARALLEL'
                     }
                 )
             }
