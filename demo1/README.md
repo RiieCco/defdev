@@ -11,3 +11,8 @@ Run the hello-world docker container from the defdev docker registry. Below is s
 
     CMD ["/entrypoint.sh"]
 
+In this case the 'entrypoint.sh' contains nothing more than:
+
+    #!/bin/bash
+
+    echo "Hello world from Docker!"
