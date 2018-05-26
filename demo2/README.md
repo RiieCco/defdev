@@ -2,7 +2,10 @@
 
 Run the dependency-check docker container from the defdev docker registry ("defdev/dependency-check-lite"). Below is shown the code from the entrypoint.sh and Dockerfile used to build this container. Look into the code to figure out how this docker container should be deployed in the pipe-line-script file!
 
+##### Note: Only look at the example files when absolutely stuck! (SPOILERS)
+
 ##### Note: The SOURCE_REPO = https://github.com/RiieCco/training-repository
+
 
 ### Dockerfile
 
