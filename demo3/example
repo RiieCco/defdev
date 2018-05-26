@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+    environment { 
+        _MOBSF_ENGINE_URL      = 'http://35.234.89.135:8000'
+        _MOBSF_API_KEY         = '8f892f5481ca1e4a66d063a8d13a685912db309b03307874335e231096cea833'
+        _SOURCE_REPO_APK_RAW   = 'https://raw.githubusercontent.com/RiieCco/dockertools/master/security/mobile-security-framework/diva.apk'
+        _MOBSF_SETTINGS        =  "-e SOURCE_REPO_APK_RAW=${_SOURCE_REPO_APK_RAW} -e MOBSF_ENGINE_URL=${_MOBSF_ENGINE_URL} -e MOBSF_API_KEY=${_MOBSF_API_KEY}"
+    }
+    stages {
+        stage('Example') {
+            steps {
+                sh 'sudo docker run $_MOBSF_SETTINGS defdev/mobsf-client'
+            }
+        }
+    }
+}
