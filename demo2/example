@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+       stages {
+        stage('Dependency-check-lite') {
+            steps {
+                sh 'sudo docker run -e SOURCE_REPO=https://github.com/RiieCco/training-repository defdev/dependency-check-lite'
+            }
+        }
+    }
+}
