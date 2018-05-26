@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+    stages {        
+        stage("parallel build") {
+            steps {
+                parallel (
+                   "Start step1" : {
+                       sh 'sudo docker run defdev/hello-world'
+                    },
+                    "Start step2" : {
+                       sh 'sudo docker run -e ENV_VARIABLE=sdasdsadas defdev/hello-world-env'
+                    }
+                )
+            }
+        }
+    }
+}
