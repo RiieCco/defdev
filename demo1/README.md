@@ -1,3 +1,4 @@
+![GitHub Logo](https://defdev.eu/ddf/gfx/logo.defdev.1608z.whtonblk.svg)
 # Demo1: Docker intro 1.0
 
 ##### Note: Only look at the example files when absolutely stuck! (SPOILERS)
