@@ -1,3 +1,4 @@
+![GitHub Logo](https://defdev.eu/ddf/gfx/logo.defdev.1608z.whtonblk.svg)
 # Demo4: Dependency-check and Defect-dojo
 
 Run the dependency-check container from the defdev docker registry ("defdev/dependency-check"). 
