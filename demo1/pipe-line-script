@@ -1,4 +1,3 @@
-//Demo1
 pipeline {
     agent any
     stages {
