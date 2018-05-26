@@ -1,10 +1,15 @@
-//Demo3
 pipeline {
     agent any
+    environment { 
+        _DOJO_URL            = ''
+        _DOJO_API_KEY        = ''
+        _DOJO_ENGAGEMENT_ID  = ''
+        _DOJO_SETTINGS = "-e DOJO_URL=${_DOJO_URL} -e DOJO_API_KEY=${_DOJO_API_KEY} -e DOJO_ENGAGEMENT_ID=${_DOJO_ENGAGEMENT_ID}"
+    }
     stages {
         stage('Example') {
             steps {
-                echo 'Put container script here!'
+                sh 'PUT DOCKER COMMAND HERE!'
             }
         }
     }
