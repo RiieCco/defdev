@@ -4,7 +4,7 @@ Run the Mobile security framework CLI container from the defdev docker registry 
 In the pipe-line-script file there is already a great part of the Jenkinsfile pre-defined. It also
 incorperates the API key to communicate with the mobsf-engine instance. 
 
-##### Note: The SOURCE_REPO_APK_RAW=
+##### Note: The SOURCE_REPO_APK_RAW=https://raw.githubusercontent.com/RiieCco/training-repository/master/test.apk
 
 ### Dockerfile
 
