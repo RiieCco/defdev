@@ -6,12 +6,12 @@ pipeline {
         _DOJO_API_KEY        = ''
         _DOJO_ENGAGEMENT_ID  = ''
         _SOURCE_REPO         = ''
-        _Defect_Dojo_Settings = "-e DOJO_URL=${_DOJO_URL} -e DOJO_API_KEY=${_DOJO_API_KEY} -e DOJO_ENGAGEMENT_ID=${_DOJO_ENGAGEMENT_ID} "
+        _DOJO_SETTINGS       = "-e DOJO_URL=${_DOJO_URL} -e DOJO_API_KEY=${_DOJO_API_KEY} -e DOJO_ENGAGEMENT_ID=${_DOJO_ENGAGEMENT_ID} "
     }
     stages {
         stage('Example') {
             steps {
-                sh 'sudo docker run $_Defect_Dojo_Settings defdev/dependency-check'
+                sh 'RUN THE CONTAINER FROM HERE!'
             }
         }
     }
