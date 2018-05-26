@@ -1,3 +1,4 @@
+![GitHub Logo](https://defdev.eu/ddf/gfx/logo.defdev.1608z.whtonblk.svg)
 # Demo3: Mobile security framework!
 
 Run the Mobile security framework CLI container from the defdev docker registry ("defdev/mobsf-client"). 
