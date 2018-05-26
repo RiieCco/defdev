@@ -19,7 +19,7 @@ In this case the 'entrypoint.sh' contains nothing more than:
 
 Run this container from the defdev registry ("defdev/hello-world") in Jenkins by incorperating it either the "pipe-line-script" file and put it in the configuration for your job. These exercises are meant to also train your Google foo. So do not hessitate to go look it up online!
 
-# Demo1: Docker intro 1.0
+# Demo1: Docker intro 1.1
 
 We repeat the same challenge but this time we swap the defdev/hello-world image for the image defdev/hello-world-env.
 This image also includes running the container with an enviroment variable. With this enviroment variable we can run
