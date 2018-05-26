@@ -1,5 +1,7 @@
 # Demo1: Docker intro 1.0
 
+##### Note: Only look at the example files when absolutely stuck! (SPOILERS)
+
 Run the hello-world docker container from the defdev docker registry. Below shows the Dockerfile code:
 
     FROM alpine
