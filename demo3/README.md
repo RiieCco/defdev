@@ -4,6 +4,8 @@ Run the Mobile security framework CLI container from the defdev docker registry 
 In the pipe-line-script file there is already a great part of the Jenkinsfile and how the container should run pre-defined.
 However, in this demo we have to find out how to effectively run the Docker container.
 
+##### Note: Only look at the example files when absolutely stuck! (SPOILERS)
+
 ### Dockerfile
 
     FROM alpine:latest 
