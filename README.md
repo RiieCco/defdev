@@ -1,6 +1,8 @@
 
 # Welcome to the DefDev CI/CD training!
 
+[logo]: https://defdev.eu/ddf/gfx/logo.defdev.1608z.whtonblk.svg "DefDev"
+
 We are going to learn multiple ways to incorperate the security tooling into your CI/CD pipe-lines!
 This repository contains demo files which we are going to use in our hands on parts of the training.
 The purpose of these demo files is to 'demonstrate' (what's in a name right?) the aproaches we can take.
