@@ -1,7 +1,7 @@
 
 # Welcome to the DefDev CI/CD training!
 
-[logo]: https://pbs.twimg.com/profile_images/961014873978228737/CAPg0U_z_400x400.jpg 
+[logo]:https://pbs.twimg.com/profile_images/961014873978228737/CAPg0U_z_400x400.jpg 
 
 We are going to learn multiple ways to incorperate the security tooling into your CI/CD pipe-lines!
 This repository contains demo files which we are going to use in our hands on parts of the training.
