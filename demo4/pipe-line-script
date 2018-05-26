@@ -1,4 +1,3 @@
-//Demo4 run dependency-check(Defect-Dojo)
 pipeline {
     agent any
     environment { 
