@@ -27,12 +27,12 @@ However, in this demo we have to find out how to effectively run the Docker cont
 
 ### Entrypoint.sh
 
-#!/bin/bash
+    #!/bin/bash
 
-exit_env_error() {
-echo "Error: env var '${1}' not set" >&2
-exit 1
-}
+    exit_env_error() {
+    echo "Error: env var '${1}' not set" >&2
+    exit 1
+    }
 
     #ENV variables needed to run the scan effectively
     [ -z "${SOURCE_REPO_APK_RAW}" ] && exit_env_error SOURCE_REPO_APK_RAW
