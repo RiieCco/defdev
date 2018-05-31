@@ -1,5 +1,5 @@
 ![GitHub Logo](https://defdev.eu/ddf/gfx/logo.defdev.1608z.whtonblk.svg)
-# Demo4: Dependency-check and Defect-dojo
+# Demo5: Sonar scanner and sonarqube
 
 Run the sonar-scanner container from the defdev docker registry ("defdev/sonar-scanner"). 
 In the pipe-line-script file there is already a great part of the Jenkinsfile and how the container should run pre-defined.
