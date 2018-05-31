@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+    environment { 
+        _SONAR_HOST_URL          =''
+        _SONAR_LOGIN             =''
+        _SONAR_PROJECT_KEY       =''
+        _SONAR_PROJECT_NAME      =''
+        _SONAR_PROJECT_VERSION   ='1'
+        _SONAR_PROJECT_BASEDIR   ='/root'
+        _SONAR_SOURCES           ='.'
+        _SONAR_JAVA_BINARIES     = ''
+        _SONAR_SETTINGS          = "-Dsonar.host.url=${_SONAR_HOST_URL} -Dsonar.jdbc.url=${_SONAR_JDBC_URL} -Dsonar.projectKey=${_SONAR_PROJECT_KEY} -Dsonar.projectName=${_SONAR_PROJECT_NAME} -Dsonar.projectVersion=${_SONAR_PROJECT_VERSION} -Dsonar.projectBaseDir=${_SONAR_PROJECT_BASEDIR} -Dsonar.sources=${_SONAR_SOURCES} -Dsonar.java.binaries=${_SONAR_JAVA_BINARIES} -Dsonar.login=${_SONAR_LOGIN}"
+    }
+    stages {
+        stage('Example') {
+            steps {
+                sh 'RUN THE CONTAINER FROM HERE!'
+            }
+        }
+    }
+}
+
